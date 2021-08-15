@@ -10,3 +10,5 @@ def scrapeCNBC(URL):
         return None
     groups = content.find_all('div', class_='group')
     return groups
+
+#Help
